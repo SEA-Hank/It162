@@ -1,0 +1,20 @@
+sudo apachectl start
+
+sudo apachectl restart
+
+sudo apachectl stop
+
+/etc/apache2/httpd.conf
+
+load php and set the web folder
+
+DocumentRoot "/Users/hank/Documents/webroot"
+<Directory "/Users/hank/Documents/webroot">
+
+User yinghenghe
+Group staff
+
+ DirectoryIndex index.html index.php
+
+ if i don't want to change the User and Group. put the webroot in /User/hank/myfolder  not /User/Hank/desktop/xxxxx
+                                                                                           desktop is created by system.
