@@ -1,4 +1,4 @@
-<?php $navSelected = "contactme" ?>
+
 <?php include 'includes/header.php'; ?>
 
 

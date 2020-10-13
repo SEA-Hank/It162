@@ -1,4 +1,3 @@
-<?php $navSelected = "flowchart" ?>
 <?php include 'includes/header.php'; ?>
 
 <!-- START LEFT COL -->

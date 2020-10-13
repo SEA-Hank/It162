@@ -1,4 +1,3 @@
-<?php $navSelected = "aia" ?>
 <?php include 'includes/header.php'; ?>
 
 <!-- START LEFT COL -->

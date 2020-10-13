@@ -1,4 +1,3 @@
-<?php $navSelected = "fpIndex" ?>
 <?php include '../includes/header.php'; ?>
 
 <!-- START LEFT COL -->
