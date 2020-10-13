@@ -6,7 +6,7 @@ html {
     background-color: #ccc;
 }
 
-main.wrapper {
+div.wrapper {
     background-color: #fff;
     overflow: auto;
 }
@@ -50,7 +50,7 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1400px) {
 
-    main.wrapper {
+    div.wrapper {
         width: 80%;
         margin: auto;
     }
@@ -138,4 +138,16 @@ footer {
         display: none;
     }
 
+}
+
+i.logo {
+    color: darkred;
+    /* a less boring color */
+    text-shadow: 1px 1px #ccc;
+    /* gives the icon a little depth */
+    font-size: 1.25em;
+    /* font awesome icons are text, so make it a bit bigger */
+    margin-left: 1%;
+    /* this keeps the icon from being squeeezed to the left */
+    margin-right: 5px;
 }

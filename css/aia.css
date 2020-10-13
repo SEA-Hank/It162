@@ -1,0 +1,47 @@
+#tablearea-header,
+#tablearea-body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1em auto 1em auto;
+  width: 90%;
+}
+
+#tablearea-header {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#tablearea-body table {
+  border-collapse: collapse;
+  width: 100%;
+  cursor: pointer;
+  margin: 2em 0em 1em 0em;
+}
+#tablearea-body table tr,
+#tablearea-body table td {
+  border: 1px solid black;
+}
+#tablearea-body table tr td {
+  padding: 10px;
+}
+#tablearea-body table tr td.subject {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+#tablearea-body table tr td.textToRight {
+  text-align: right;
+}
+#tablearea-body table tr td.textToCenter {
+  text-align: center;
+}
+#tablearea-body table tr.trcolorbg_blue {
+  background-color: #CBEDFA;
+}
+#tablearea-body table tr.trcolorbg_gray {
+  background-color: #EBEBEB;
+}
+#tablearea-body table tr:hover {
+  background-color: #F6FACB;
+}
+
+/*# sourceMappingURL=aia.css.map */

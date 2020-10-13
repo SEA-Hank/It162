@@ -1,46 +1,83 @@
-/* start reCAPTCHA styles */
-
-form>div {
-    margin: 1em;
+div.wrapper>main {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
-/* writes to small text above reCAPTCHA upon failure */
-
-.dateFeedback {
-    font-style: italic;
-    font-size: 70%;
-    font-weight: bold;
-    color: #f00;
+div.wrapper>main * {
+  box-sizing: border-box;
 }
 
-input:required {
-    border: 1px solid red;
+div.wrapper>main form {
+  padding: 10px;
 }
 
-input:optional,
-textarea:optional {
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
+div.wrapper>main form input[type=text],
+div.wrapper>main form input[type=email],
+div.wrapper>main form textarea {
+  outline: none;
+  border: 2px solid #98DDFD;
+  width: 320px;
+  border-radius: 5px;
 }
 
-input[type="submit"],
-input[type="button"] {
-    background-color: #fff;
-    border-radius: 4px;
-    border: solid 1px #ccc;
-    padding: 0.3em 0.5em;
+div.wrapper>main form input[type=text]:focus,
+div.wrapper>main form input[type=email]:focus,
+div.wrapper>main form textarea:focus {
+  border-color: #4CAF50;
 }
 
-fieldset {
-    border: 1px solid #ccc;
-    max-width: 350px;
+div.wrapper>main form input[type=text],
+div.wrapper>main form input[type=email] {
+  padding: 10PX;
+  font-size: 16px;
 }
 
-legend {
-    margin-left: 0.5em;
-    padding: 0.2em 0.5em;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+div.wrapper>main form div {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-/* end reCAPTCHA styles */
+div.wrapper>main form div label {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0f0f0f;
+}
+
+div.wrapper>main form div.submitBtnWrapper {
+  text-align: center;
+}
+
+div.wrapper>main form div.submitBtnWrapper input[type=submit] {
+  width: 320px;
+  height: 35px;
+  border: #4CAF50;
+  background: #4CAF50;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+div.wrapper>main form div.submitBtnWrapper input[type=submit]:hover {
+  border: #409546;
+  background: #409546;
+}
+
+@media (max-width: 420px) {
+  div.wrapper>main {
+    width: 100%;
+  }
+
+  div.wrapper>main form {
+    width: 100%;
+  }
+
+  div.wrapper>main form input,
+  div.wrapper>main form textarea {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,62 @@
+$trhoverbg: #F6FACB;
+$trcolorbg_blue:#CBEDFA;
+$trcolorbg_gray:#EBEBEB;
+
+#tablearea-header,
+#tablearea-body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em auto 1em auto;
+    width: 90%;
+}
+
+#tablearea-header {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#tablearea-body {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        cursor: pointer;
+        margin: 2em 0em 1em 0em;
+
+        tr,
+        td {
+            border: 1px solid black;
+        }
+
+        tr {
+            td {
+                padding: 10px;
+            }
+
+            td.subject {
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            td.textToRight {
+                text-align: right;
+            }
+
+            td.textToCenter {
+                text-align: center;
+            }
+
+            &.trcolorbg_blue {
+                background-color: $trcolorbg_blue;
+            }
+
+            &.trcolorbg_gray {
+                background-color: $trcolorbg_gray;
+            }
+
+
+            &:hover {
+                background-color: $trhoverbg;
+            }
+        }
+    }
+}
