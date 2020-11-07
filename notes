@@ -11,6 +11,8 @@ load php and set the web folder
 DocumentRoot "/Users/hank/Documents/webroot"
 <Directory "/Users/hank/Documents/webroot">
 
+
+###### it doesn't work now !!!
 User yinghenghe
 Group staff
 
@@ -18,6 +20,10 @@ Group staff
 
  if i don't want to change the User and Group. put the webroot in /User/hank/myfolder  not /User/Hank/desktop/xxxxx
                                                                                            desktop is created by system.
+###### it doesn't work now !!!
+
+since update OS, the website folder can NOT in the desktop folder !!! I don't know why, 
+but put the website folder in the User root folder is fine or other folders also fine
 
 
 sitekey:   6LchY9YZAAAAAG7s20VGwl5ojgNXyWNvk0pL2m87
