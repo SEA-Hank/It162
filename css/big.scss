@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 #section-title,
 .main-content {
     * {
@@ -108,7 +113,8 @@ footer {
             }
         }
 
-        #flex {
+        #flex,
+        #galleries {
             p {
                 width: 600px;
                 padding: 20px;
@@ -163,7 +169,8 @@ footer {
                 }
             }
 
-            #flex {
+            #flex,
+            #galleries {
                 p {
                     width: auto;
                 }

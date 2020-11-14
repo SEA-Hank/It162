@@ -21,4 +21,9 @@ switch ($path) {
         $logo = "fa-shopping-cart";
         $logoColor = "#389393";
         break;
+    case "galleries.php":
+        $title = "Galleries Research";
+        $logo = "fa-picture-o";
+        $logoColor = "#de4463";
+        break;
 }

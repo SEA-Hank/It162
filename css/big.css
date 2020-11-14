@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 #section-title *,
 .main-content * {
   margin: 0px;
@@ -90,7 +95,8 @@ footer {
 .main-content .main-left #clientQuestionnaire form fieldset:focus {
   border-color: #4CAF50;
 }
-.main-content .main-left #flex p {
+.main-content .main-left #flex p,
+.main-content .main-left #galleries p {
   width: 600px;
   padding: 20px;
   text-indent: 20px;
@@ -129,7 +135,8 @@ footer {
   .main-content .main-left #clientQuestionnaire form {
     width: auto;
   }
-  .main-content .main-left #flex p {
+  .main-content .main-left #flex p,
+.main-content .main-left #galleries p {
     width: auto;
   }
   .main-content .main-left #shoppingCarWrapper {
