@@ -27,7 +27,7 @@ footer {
   flex-direction: row;
 }
 .main-content .main-left {
-  flex-grow: 1;
+  flex-grow: 2;
 }
 .main-content .main-left #clientQuestionnaire form {
   margin: auto;
@@ -129,8 +129,11 @@ footer {
 .main-content .main-left #shoppingCarWrapper p {
   text-indent: 20px;
 }
+.main-content .main-left #Map {
+  margin: auto;
+}
 .main-content .main-right {
-  width: 500px;
+  padding-left: 50px;
 }
 .main-content .main-right ul li {
   padding: 20px;
@@ -151,11 +154,12 @@ footer {
 .main-content .main-left #siteVsApp p {
     width: auto;
   }
-  .main-content .main-left #shoppingCarWrapper {
+  .main-content .main-left #shoppingCarWrapper,
+.main-content .main-left #Map {
     width: auto;
   }
   .main-content .main-right {
-    width: 100%;
+    padding-left: 0px;
   }
 }
 

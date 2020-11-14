@@ -31,4 +31,14 @@ switch ($path) {
         $logo = "fa-balance-scale";
         $logoColor = "#726a95";
         break;
+    case "map.php":
+        $title = "Google Map";
+        $logo = "fa-map-marker";
+        $logoColor = "#ac4b1c";
+        break;
+    case "accessibility.php":
+        $title = "Web Accessibility";
+        $logo = "fa-user-circle";
+        $logoColor = "#f6ab6c";
+        break;
 }

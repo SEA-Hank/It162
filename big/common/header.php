@@ -27,6 +27,8 @@
                     <li></i><a href='/big/shoppingCarts.php'>Shopping Carts</a></li>
                     <li></i><a href='/big/galleries.php'>Galleries</a></li>
                     <li></i><a href='/big/siteVsApp.php'>site Vs App</a></li>
+                    <li></i><a href='/big/map.php'>Map</a></li>
+                    <li></i><a href='/big/accessibility.php'>Accessibility</a></li>
                 </ul>
             </div>
         </nav>
