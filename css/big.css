@@ -95,6 +95,23 @@ footer {
   padding: 20px;
   text-indent: 20px;
 }
+.main-content .main-left #shoppingCarWrapper {
+  width: 600px;
+  padding: 20px;
+}
+.main-content .main-left #shoppingCarWrapper h1 {
+  padding: 10px;
+}
+.main-content .main-left #shoppingCarWrapper ul {
+  padding-left: 20px;
+}
+.main-content .main-left #shoppingCarWrapper ul li {
+  padding: 5px;
+  list-style: none;
+}
+.main-content .main-left #shoppingCarWrapper p {
+  text-indent: 20px;
+}
 .main-content .main-right {
   width: 500px;
 }
@@ -113,6 +130,9 @@ footer {
     width: auto;
   }
   .main-content .main-left #flex p {
+    width: auto;
+  }
+  .main-content .main-left #shoppingCarWrapper {
     width: auto;
   }
   .main-content .main-right {

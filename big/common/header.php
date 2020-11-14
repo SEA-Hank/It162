@@ -24,6 +24,7 @@
 
                     <li></i><a href='/big/index.php'>Home</a></li>
                     <li></i><a href='/big/flexResearch.php'>Flexbox</a></li>
+                    <li></i><a href='/big/shoppingCarts.php'>Shopping Carts</a></li>
                 </ul>
             </div>
         </nav>

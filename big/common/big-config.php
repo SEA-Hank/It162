@@ -16,4 +16,9 @@ switch ($path) {
         $logo = "fa-th-list";
         $logoColor = "#af6b58";
         break;
+    case "shoppingCarts.php":
+        $title = "Shopping Carts Research";
+        $logo = "fa-shopping-cart";
+        $logoColor = "#389393";
+        break;
 }

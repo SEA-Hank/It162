@@ -115,6 +115,28 @@ footer {
                 text-indent: 20px;
             }
         }
+
+        #shoppingCarWrapper {
+            width: 600px;
+            padding: 20px;
+
+            h1 {
+                padding: 10px;
+            }
+
+            ul {
+                padding-left: 20px;
+
+                li {
+                    padding: 5px;
+                    list-style: none;
+                }
+            }
+
+            p {
+                text-indent: 20px;
+            }
+        }
     }
 
     .main-right {
@@ -145,6 +167,10 @@ footer {
                 p {
                     width: auto;
                 }
+            }
+
+            #shoppingCarWrapper {
+                width: auto;
             }
         }
 
