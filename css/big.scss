@@ -1,0 +1,155 @@
+#section-title,
+.main-content {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+}
+
+footer {
+    text-align: center;
+}
+
+#section-title {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.main-content {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+    .main-left {
+        flex-grow: 1;
+
+        #clientQuestionnaire {
+            form {
+                margin: auto;
+                width: 500px;
+                padding: 10px;
+
+                input[type="text"],
+                input[type="email"],
+                textarea {
+                    outline: none;
+                    border: 2px solid #98DDFD;
+                    width: 320px;
+                    border-radius: 5px;
+
+                    &:focus {
+                        border-color: #4CAF50;
+                    }
+                }
+
+                input[type="text"],
+                input[type="email"] {
+                    padding: 10PX;
+                    font-size: 16px;
+                }
+
+                div {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+
+                    label {
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: #0f0f0f;
+                    }
+                }
+
+                div.submitBtnWrapper {
+                    //text-align: center;
+
+                    input[type="submit"] {
+                        width: 320px;
+                        height: 35px;
+                        border: #4CAF50;
+                        background: #4CAF50;
+                        color: white;
+                        font-size: 16px;
+                        outline: none;
+                        cursor: pointer;
+                        letter-spacing: 1px;
+
+                        &:hover {
+                            border: #409546;
+                            background: #409546;
+                        }
+                    }
+                }
+
+                select.hearUs {
+                    border: 2px solid #98DDFD;
+                    display: block;
+                    width: 320px;
+                    height: 50px;
+                    padding: 10px;
+                    outline: none;
+
+                    &:focus {
+                        border-color: #4CAF50;
+                    }
+                }
+
+                fieldset {
+                    border: 2px solid #98DDFD;
+                    padding: 10px;
+                    width: 320px;
+
+                    &:focus {
+                        border-color: #4CAF50;
+                    }
+                }
+            }
+        }
+
+        #flex {
+            p {
+                width: 600px;
+                padding: 20px;
+                text-indent: 20px;
+            }
+        }
+    }
+
+    .main-right {
+        width: 500px;
+
+        ul {
+            li {
+                padding: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .main-content {
+        flex-direction: column;
+
+        .main-left {
+            width: 100%;
+
+            #clientQuestionnaire {
+                form {
+                    width: auto;
+                }
+            }
+
+            #flex {
+                p {
+                    width: auto;
+                }
+            }
+        }
+
+        .main-right {
+            width: 100%;
+        }
+    }
+}
