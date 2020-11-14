@@ -96,10 +96,21 @@ footer {
   border-color: #4CAF50;
 }
 .main-content .main-left #flex p,
-.main-content .main-left #galleries p {
+.main-content .main-left #galleries p,
+.main-content .main-left #siteVsApp p {
   width: 600px;
   padding: 20px;
   text-indent: 20px;
+}
+.main-content .main-left #siteVsApp h4 {
+  padding: 5px;
+}
+.main-content .main-left #siteVsApp ul {
+  padding-left: 20px;
+}
+.main-content .main-left #siteVsApp ul li {
+  padding: 5px;
+  list-style: none;
 }
 .main-content .main-left #shoppingCarWrapper {
   width: 600px;
@@ -136,7 +147,8 @@ footer {
     width: auto;
   }
   .main-content .main-left #flex p,
-.main-content .main-left #galleries p {
+.main-content .main-left #galleries p,
+.main-content .main-left #siteVsApp p {
     width: auto;
   }
   .main-content .main-left #shoppingCarWrapper {

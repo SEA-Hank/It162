@@ -114,11 +114,27 @@ footer {
         }
 
         #flex,
-        #galleries {
+        #galleries,
+        #siteVsApp {
             p {
                 width: 600px;
                 padding: 20px;
                 text-indent: 20px;
+            }
+        }
+
+        #siteVsApp {
+            h4 {
+                padding: 5px;
+            }
+
+            ul {
+                padding-left: 20px;
+
+                li {
+                    padding: 5px;
+                    list-style: none;
+                }
             }
         }
 
@@ -170,7 +186,8 @@ footer {
             }
 
             #flex,
-            #galleries {
+            #galleries,
+            #siteVsApp {
                 p {
                     width: auto;
                 }

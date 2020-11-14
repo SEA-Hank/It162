@@ -26,4 +26,9 @@ switch ($path) {
         $logo = "fa-picture-o";
         $logoColor = "#de4463";
         break;
+    case "siteVsApp.php":
+        $title = "Site Vs App Research";
+        $logo = "fa-balance-scale";
+        $logoColor = "#726a95";
+        break;
 }
