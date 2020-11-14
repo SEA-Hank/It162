@@ -41,4 +41,9 @@ switch ($path) {
         $logo = "fa-user-circle";
         $logoColor = "#f6ab6c";
         break;
+    case "webCams.php":
+        $title = "Web live Camera";
+        $logo = "fa-camera";
+        $logoColor = "#0278ae";
+        break;
 }

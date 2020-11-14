@@ -132,11 +132,17 @@ footer {
 .main-content .main-left #Map {
   margin: auto;
 }
+.main-content .main-left .webCams h1 {
+  padding: 10px;
+}
 .main-content .main-right {
   padding-left: 50px;
 }
 .main-content .main-right ul li {
   padding: 20px;
+}
+.main-content .main-right .webCams h1 {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 1024px) {

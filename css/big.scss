@@ -163,14 +163,27 @@ footer {
         #Map {
             margin: auto;
         }
+
+        .webCams {
+            h1 {
+                padding: 10px;
+            }
+        }
     }
 
     .main-right {
+
         padding-left: 50px;
 
         ul {
             li {
                 padding: 20px;
+            }
+        }
+
+        .webCams {
+            h1 {
+                padding: 10px;
             }
         }
     }
