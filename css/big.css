@@ -135,6 +135,12 @@ footer {
 .main-content .main-left .webCams h1 {
   padding: 10px;
 }
+.main-content .main-left #calendar #calendar-month {
+  display: block;
+}
+.main-content .main-left #calendar #calendar-agenda {
+  display: none;
+}
 .main-content .main-right {
   padding-left: 50px;
 }
@@ -163,6 +169,12 @@ footer {
   .main-content .main-left #shoppingCarWrapper,
 .main-content .main-left #Map {
     width: auto;
+  }
+  .main-content .main-left #calendar #calendar-month {
+    display: none;
+  }
+  .main-content .main-left #calendar #calendar-agenda {
+    display: block;
   }
   .main-content .main-right {
     padding-left: 0px;

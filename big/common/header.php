@@ -27,9 +27,18 @@
                     <li></i><a href='/big/shoppingCarts.php'>Shopping Carts</a></li>
                     <li></i><a href='/big/galleries.php'>Galleries</a></li>
                     <li></i><a href='/big/siteVsApp.php'>site Vs App</a></li>
-                    <li></i><a href='/big/map.php'>Map</a></li>
+                    <!-- <li></i><a href='/big/map.php'>Map</a></li> -->
                     <li></i><a href='/big/accessibility.php'>Accessibility</a></li>
                     <li></i><a href='/big/webCams.php'>webCams</a></li>
+                    <!-- <li></i><a href='/big/calendar.php'>Calendar</a></li> -->
+                    <li class='active'><a href='#'>Google</a>
+                        <ul>
+                            <li><a href='/big/map.php'>Map</a>
+                            </li>
+                            <li><a href='/big/calendar.php'>Calendar</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>

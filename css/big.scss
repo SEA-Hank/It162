@@ -169,6 +169,16 @@ footer {
                 padding: 10px;
             }
         }
+
+        #calendar {
+            #calendar-month {
+                display: block;
+            }
+
+            #calendar-agenda {
+                display: none;
+            }
+        }
     }
 
     .main-right {
@@ -213,6 +223,16 @@ footer {
             #shoppingCarWrapper,
             #Map {
                 width: auto;
+            }
+
+            #calendar {
+                #calendar-month {
+                    display: none;
+                }
+
+                #calendar-agenda {
+                    display: block;
+                }
             }
         }
 

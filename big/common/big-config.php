@@ -7,7 +7,7 @@ $logo = "";
 $logoColor = "";
 switch ($path) {
     case "index.php":
-        $title = "BIG SITE";
+        $title = "Home - Client Questionnaire";
         $logo = "fa-home";
         $logoColor = "#0278ae";
         break;
@@ -45,5 +45,10 @@ switch ($path) {
         $title = "Web live Camera";
         $logo = "fa-camera";
         $logoColor = "#0278ae";
+        break;
+    case "calendar.php":
+        $title = "Google Calendar";
+        $logo = "fa-calendar";
+        $logoColor = "#c62a88";
         break;
 }
