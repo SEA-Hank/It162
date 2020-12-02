@@ -1,5 +1,5 @@
-<?php include './includes/fp-config.php' ?>
-<?php include './includes/header.php'; ?>
+<?php include './Includes/fp-config.php' ?>
+<?php include './Includes/header.php'; ?>
 
 <section id="instructions">
     <div class="instruction-wrapper">
@@ -9,4 +9,4 @@
     </div>
 </section>
 
-<?php include './includes/footer.php'; ?>
+<?php include './Includes/footer.php'; ?>
