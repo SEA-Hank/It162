@@ -40,7 +40,4 @@ if ($showMap) { ?>
     </script>
 <?php } ?>
 
-
-
-
 </html>
