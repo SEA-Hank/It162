@@ -50,3 +50,4 @@ $nav1['/flowchart.php'] = "Flowchart";
 $nav1['/fp/index.php'] = "Final Project";
 $nav1['/contactme.php'] = "Contact Hank";
 $nav1['https://docs.google.com/document/d/175kxw1mbQlBe9q7tjuY2rJVcHBND1EoyfQ55Mpv8V5E/edit?usp=sharing'] = "Flowchart & Wireframes";
+$nav1['/fp/template.php'] = "Final Template";
