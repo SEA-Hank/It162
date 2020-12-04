@@ -600,6 +600,14 @@ body section#googleMap div#Map-title::after {
 body section#schedule {
   margin-top: 20px;
 }
+body section#schedule div#showthanksDiv {
+  display: none;
+}
+body section#schedule div#showthanksDiv p {
+  text-align: center;
+  color: green;
+  font-weight: bolder;
+}
 body section#schedule div#schedule-title {
   padding-top: 50px;
   text-align: center;

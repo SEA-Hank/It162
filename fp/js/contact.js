@@ -66,3 +66,8 @@ document.getElementById("formSubmitBtn").addEventListener("click", function () {
         document.getElementById("clientInfo").submit();
     }
 });
+
+if (document.getElementById("isshowthanks").value == "1") {
+    showthanksDiv = document.getElementById("showthanksDiv");
+    showthanksDiv.style.display = "block";
+}

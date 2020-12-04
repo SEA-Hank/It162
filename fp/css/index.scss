@@ -736,6 +736,16 @@ body {
     section#schedule {
         margin-top: 20px;
 
+        div#showthanksDiv {
+            display: none;
+
+            p {
+                text-align: center;
+                color: green;
+                font-weight: bolder;
+            }
+        }
+
         div#schedule-title {
             padding-top: 50px;
             @include sectionTitle();
@@ -831,6 +841,7 @@ body {
 
     @media only screen and (max-width: 1300px) {
         section#schedule {
+
             div#scheduleWrapper {
                 width: 90%;
 
