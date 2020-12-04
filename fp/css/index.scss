@@ -797,16 +797,20 @@ body {
                     }
                 }
 
-                #formSubmitBtn {
-                    border: none;
-                    color: white;
-                    background-color: #f96302;
-                    padding: 20PX;
-                    font-size: 16PX;
-                    cursor: pointer;
-                    border-radius: 3px;
-                    outline: none;
-                    width: 300px;
+                #formSubmitBtnWrapper {
+                    margin-top: 20px;
+
+                    #formSubmitBtn {
+                        border: none;
+                        color: white;
+                        background-color: #f96302;
+                        padding: 20PX;
+                        font-size: 16PX;
+                        cursor: pointer;
+                        border-radius: 3px;
+                        outline: none;
+                        width: 300px;
+                    }
                 }
             }
         }
@@ -818,7 +822,11 @@ body {
                 width: 90%;
 
                 div#scheduleImage {
-                    display: none;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+
                 }
 
                 div#schedule-form {
@@ -830,8 +838,10 @@ body {
                         width: 100%;
                     }
 
-                    #formSubmitBtn {
-                        width: 100%;
+                    #formSubmitBtnWrapper {
+                        #formSubmitBtn {
+                            width: 100%;
+                        }
                     }
                 }
             }

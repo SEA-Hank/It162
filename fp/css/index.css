@@ -663,7 +663,10 @@ body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper span
 body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper span.small {
   font-size: 14px;
 }
-body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtn {
+body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtnWrapper {
+  margin-top: 20px;
+}
+body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtnWrapper #formSubmitBtn {
   border: none;
   color: white;
   background-color: #f96302;
@@ -678,8 +681,9 @@ body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtn {
   body section#schedule div#scheduleWrapper {
     width: 90%;
   }
-  body section#schedule div#scheduleWrapper div#scheduleImage {
-    display: none;
+  body section#schedule div#scheduleWrapper div#scheduleImage img {
+    width: 100%;
+    height: auto;
   }
   body section#schedule div#scheduleWrapper div#schedule-form {
     clear: left;
@@ -689,7 +693,7 @@ body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtn {
   body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper {
     width: 100%;
   }
-  body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtn {
+  body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtnWrapper #formSubmitBtn {
     width: 100%;
   }
 }
