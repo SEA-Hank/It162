@@ -10,7 +10,7 @@
             <img src="./images/meeting.jpg">
         </div>
         <div id="schedule-form">
-            <form>
+            <form id="clientInfo" method="POST" action="./contact.php">
                 <div id="firstNameWrp" class="h-inputwrapper">
                     <span id="spanFirstName">FirstName: </span>
                     <input autocomplete="off" name="firstName" id="firstName" />
@@ -27,9 +27,10 @@
                     <span id="spanEmail">Email: </span>
                     <input autocomplete="off" name="firstName" id="firstName" />
                 </div>
+                <div id="recaptchaMessage">please click the checkbox</div>
                 <div class="g-recaptcha" data-callback="dataCallBack" data-sitekey="<?= $siteKey ?>"></div>
                 <div id="formSubmitBtnWrapper">
-                    <button id="formSubmitBtn">SUBMIT</button>
+                    <button id="formSubmitBtn" type="button">SUBMIT</button>
                 </div>
             </form>
         </div>

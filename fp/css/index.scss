@@ -797,6 +797,19 @@ body {
                     }
                 }
 
+                .h-inputwrapper-error {
+                    border-color: red !important;
+
+                    span {
+                        color: red !important;
+                    }
+                }
+
+                #recaptchaMessage {
+                    color: red;
+                    display: none;
+                }
+
                 #formSubmitBtnWrapper {
                     margin-top: 20px;
 

@@ -10,6 +10,7 @@ class InfoInput {
         return function (e) {
             eleObj.wrapper.style.lineHeight = "20px";
             eleObj.wrapper.style.borderColor = "#f96302";
+            eleObj.wrapper.classList.remove("h-inputwrapper-error");
             eleObj.textSpan.classList.add("small");
             eleObj.textSpan.style.color = "#f96302";
             setTimeout(function () {
@@ -32,13 +33,36 @@ class InfoInput {
         })
 
     };
+    check = function () {
+        if (this.textInput.value == "") {
+            this.wrapper.classList.add("h-inputwrapper-error");
+            return false
+        }
+        return true;
+    }
 };
 
+var token = "";
 var dataCallBack = function (data) {
-    console.log("dataCallBack : " + data);
+    document.getElementById("recaptchaMessage").style.display = "none";
+    token = data;
 }
-
 var firstName = new InfoInput("firstNameWrp");
 var lastName = new InfoInput("lastNameWrp");
 var email = new InfoInput("emailWrp");
 var phone = new InfoInput("phoneWrp");
+
+document.getElementById("formSubmitBtn").addEventListener("click", function () {
+    var doSubmit = false;
+    doSubmit = firstName.check();
+    doSubmit = lastName.check() && doSubmit;
+    doSubmit = email.check() && doSubmit;
+    doSubmit = phone.check() && doSubmit;
+    doSubmit = token != "" && doSubmit;
+    if (token == "") {
+        document.getElementById("recaptchaMessage").style.display = "block";
+    }
+    if (doSubmit) {
+        document.getElementById("clientInfo").submit();
+    }
+});

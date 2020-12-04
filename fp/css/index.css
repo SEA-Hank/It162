@@ -663,6 +663,16 @@ body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper span
 body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper span.small {
   font-size: 14px;
 }
+body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper-error {
+  border-color: red !important;
+}
+body section#schedule div#scheduleWrapper div#schedule-form .h-inputwrapper-error span {
+  color: red !important;
+}
+body section#schedule div#scheduleWrapper div#schedule-form #recaptchaMessage {
+  color: red;
+  display: none;
+}
 body section#schedule div#scheduleWrapper div#schedule-form #formSubmitBtnWrapper {
   margin-top: 20px;
 }

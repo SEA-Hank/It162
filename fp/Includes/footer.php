@@ -43,7 +43,7 @@ if ($showMap) { ?>
 
 <?php if ($showReCAPTCHA) { ?>
     <script src="./js/contact.js" type="text/javascript"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
 <?php } ?>
 
 </html>
