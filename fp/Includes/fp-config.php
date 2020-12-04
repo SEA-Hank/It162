@@ -12,6 +12,7 @@ switch ($path) {
         break;
     case "servicearea.php":
         $pageId = "SERVICE AREA";
+        $showMap = true;
         break;
     case "contact.php":
         $pageId = "CONTACT";

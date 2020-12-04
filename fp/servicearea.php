@@ -1,12 +1,11 @@
 <?php include './Includes/fp-config.php' ?>
 <?php include './Includes/header.php'; ?>
 
-<section id="instructions">
-    <div class="instruction-wrapper">
-        <div class="instruction-title">
-            <span>SERVICE AREA</span>
-        </div>
+<section id="googleMap">
+    <div id="Map-title">
+        Our Services Area
     </div>
+    <div id="map"></div>
 </section>
 
 <?php include './Includes/footer.php'; ?>

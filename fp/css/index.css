@@ -579,6 +579,9 @@ body section#instructions div.instruction-wrapper div.instruction-contents div.i
     max-width: none;
   }
 }
+body section#googleMap {
+  padding: 50px 10px 0px 10px;
+}
 body section#googleMap div#map {
   height: 550px;
   width: 100%;
