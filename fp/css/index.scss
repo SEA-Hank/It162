@@ -747,13 +747,13 @@ body {
         }
 
         div#schedule-title {
-            padding-top: 50px;
+            padding: 50px 20px 0px 20px;
             @include sectionTitle();
-            color: $themeColor;
+            //color: $themeColor;
 
             &::after {
-                width: 300px;
-                background-color: $fontColor;
+                width: 90%;
+                max-width: 425px;
             }
         }
 

@@ -609,12 +609,11 @@ body section#schedule div#showthanksDiv p {
   font-weight: bolder;
 }
 body section#schedule div#schedule-title {
-  padding-top: 50px;
+  padding: 50px 20px 0px 20px;
   text-align: center;
   color: #2D3E50;
   font-size: 24px;
   font-weight: bold;
-  color: #f96302;
 }
 body section#schedule div#schedule-title::after {
   content: " ";
@@ -625,8 +624,8 @@ body section#schedule div#schedule-title::after {
   margin: 15px auto;
 }
 body section#schedule div#schedule-title::after {
-  width: 300px;
-  background-color: #2D3E50;
+  width: 90%;
+  max-width: 425px;
 }
 body section#schedule div#scheduleWrapper {
   width: 1250px;

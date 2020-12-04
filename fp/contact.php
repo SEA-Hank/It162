@@ -9,7 +9,7 @@
         <p>Thank you, we will contact you in 1-2 business day</p>
     </div>
     <div id="schedule-title">
-        Contact Us
+        Make Schedule For your Consulation
     </div>
     <div id="scheduleWrapper" class="clearfloat">
         <div id="scheduleImage">
