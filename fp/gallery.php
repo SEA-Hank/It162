@@ -38,7 +38,7 @@ $category = array(
 <section id="gallery">
     <div id="galleryWrapper">
         <?php foreach ($category as $key => $value) { ?>
-            <div class="galleryItem">
+            <div id="<?= $value["imgPrefix"] ?>" class="galleryItem">
                 <p class="item-title"><span><?= $value["title"] ?></span></p>
                 <div class="imagesContainer">
                     <?php for ($index = 1; $index <= $value["count"]; $index++) { ?>
