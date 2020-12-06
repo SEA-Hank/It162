@@ -33,7 +33,7 @@ $navList = array(
 );
 
 $subNavList = array(
-    "Bath & Faucets" => "gallery.php#bath",
+    "Bathroom" => "gallery.php#bath",
     "Blinds & Window Treatment" => "gallery.php#blinds",
     "Lighting & Ceiling Fans" => "gallery.php#lighting",
     "Paint" => "gallery.php#paint",
