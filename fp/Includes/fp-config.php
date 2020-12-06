@@ -2,6 +2,7 @@
 $path = basename($_SERVER['PHP_SELF']);
 $showMap = false;
 $showReCAPTCHA = false;
+$isGallery = false;
 $pageId = "";
 switch ($path) {
     case "index.php":
@@ -9,6 +10,7 @@ switch ($path) {
         break;
     case "gallery.php":
         $pageId = "GALLERY";
+        $isGallery = true;
         break;
     case "servicearea.php":
         $pageId = "SERVICE AREA";

@@ -46,6 +46,8 @@ if ($showMap) { ?>
     <script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
 <?php } ?>
 
-<script src="./js/gallery.js" type="text/javascript"></script>
+<?php if ($isGallery) { ?>
+    <script src="./js/gallery.js" type="text/javascript"></script>
+<?php } ?>
 
 </html>
