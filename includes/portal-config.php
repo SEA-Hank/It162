@@ -45,8 +45,8 @@ switch ($path) {
 
 $nav1['/index.php'] = "Welcome";
 $nav1['/big/index.php'] = "Big";
-$nav1['/aia.php'] = "AIA";
 $nav1['/contactme.php'] = "Contact Hank";
+$nav1['/aia.php'] = "AIA";
 $nav1['https://docs.google.com/document/d/175kxw1mbQlBe9q7tjuY2rJVcHBND1EoyfQ55Mpv8V5E/edit?usp=sharing'] = "Flowchart & Wireframes";
 $nav1['/fp/template.php'] = "Final Template";
 $nav1['/fp/index.php'] = "Final Project";
