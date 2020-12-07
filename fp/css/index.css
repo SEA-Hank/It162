@@ -235,9 +235,12 @@ body section.navBarToSmall {
     color: #2D3E50;
     background-color: transparent;
   }
+  body section#navigation div#navWrapper nav ul#masterNav > li.currentPage a {
+    color: #f96302;
+  }
   body section#navigation div#navWrapper nav ul#masterNav > li.currentPage i#arrow {
-    border-top-color: #2D3E50;
-    border-right-color: #2D3E50;
+    border-top-color: #f96302;
+    border-right-color: #f96302;
   }
   body section#navigation div#navWrapper nav ul#masterNav li.subNavigation {
     width: 100%;

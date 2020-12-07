@@ -306,9 +306,13 @@ body {
                             color: $fontColor;
                             background-color: transparent;
 
+                            a {
+                                color: $themeColor;
+                            }
+
                             i#arrow {
-                                border-top-color: $fontColor;
-                                border-right-color: $fontColor;
+                                border-top-color: $themeColor;
+                                border-right-color: $themeColor;
                             }
                         }
 
