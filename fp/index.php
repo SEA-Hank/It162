@@ -115,22 +115,13 @@
         </div>
         <div class="instruction-contents clearfloat">
             <div class="instruction-text">
-                <p> <span>W</span>olf Construction specializes in residential and commercial construction
-                    services
-                    in YourCity
-                    and surrounding areas. Our company has a reputation for providing high quality services at an
-                    affordable price.
+                <p> <span>W</span>
                 </p>
                 <p>
-                    Whether you want to remodel your kitchen, build a new home, or develop a commercial property,
-                    YourName Construction has the experience and expertise to help you get the job done right.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quod quam, neque repellendus vero distinctio earum accusamus aliquid inventore odit iusto consequuntur enim eius ad maiores veritatis incidunt iure cumque!
                 </p>
                 <p>
-                    To get started with your project, learn more about the different types of services we offer
-                    below.
-                    We will take the time to thoroughly understand your project requirements and create a plan that
-                    fits
-                    into your budget.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quasi sunt? Voluptate dicta illum autem, numquam nesciunt, eaque similique saepe tempore illo consectetur, nobis possimus? Ab dolorem aperiam repellat impedit.
                 </p>
             </div>
             <div class="img-wrapper">
@@ -144,16 +135,13 @@
         </div>
         <div class="instruction-contents clearfloat">
             <div class="instruction-text">
-                <p> <span>I</span>f you have ever dreamed of custom designing your own home, we can turn that dream into reality.
-
-                    At YourName Construction, we have extensive experience building custom homes. We offer a complete solution that will guide you through every step of the process. From pre-construction to picking out interior paint, we’ll help you design the home of your dreams at an affordable price.
+                <p> <span>I</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repellat, ipsam ea alias saepe a? Facilis deserunt expedita ducimus eveniet iure nulla harum velit placeat, non, quae modi maxime itaque?
                 </p>
                 <p>
-                    Our process is designed to put you in control of your new home. You can provide your input on every detail or let us provide you with options and let you decide from there.
-                </p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque voluptatum eum deleniti accusantium enim consequatur distinctio, voluptate dolore fuga sapiente. Voluptates saepe et ipsum aspernatur, odio quis placeat mollitia. </p>
                 <p>
-                    If you are thinking about a custom build, get a free consultation with YourName construction. We can help you take the first steps towards creating the home you have always wanted.
-                </p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, excepturi. Nostrum delectus ullam aliquam dolor quidem libero cumque velit sint error cum, exercitationem beatae id voluptatem aliquid quo molestiae odit! </p>
             </div>
             <div class="img-wrapper">
                 <img src="./images/pic4.jpg" />
@@ -166,14 +154,12 @@
         </div>
         <div class="instruction-contents clearfloat">
             <div class="instruction-text">
-                <p> <span>I</span>f you are looking for a commercial developer in YourCity with proven experience we can help. We can help you design your next office space, addition, or remodel your existing office or commercial structure.
-                </p>
+                <p> <span>I</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsum, vero exercitationem minima architecto nobis illum! Quod libero voluptatem illum harum, eveniet ab, accusamus deserunt quisquam dolor laboriosam dignissimos corrupti. </p>
                 <p>
-                    We have handled projects ranging from minor office renovations to full development of multi-unit commercial properties.
-                </p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sunt qui praesentium error id! Fugiat, veniam! Fugiat sed, maxime quod dolores, nulla quis alias ab accusantium, voluptate aut repellat nemo! </p>
                 <p>
-                    Our company starts by doing a free consultation to find out more about what your business needs are. We will then work as a team to create plans, form a budget, and start constructions progress. All of our projects have a client oriented approach. We will provide you with a single point of contact to handle your project from start to finish.
-                </p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione temporibus cum quae provident accusamus magni! Quibusdam, harum doloremque enim commodi officia reprehenderit repudiandae vero accusamus voluptas minima, eligendi possimus a! </p>
             </div>
             <div class="img-wrapper">
                 <img src="./images/pic6.jpg" />
